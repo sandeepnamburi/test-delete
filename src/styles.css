@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+.line {
+  position: relative;
+  width: 100%;
+  border: 3px solid #a3a3a3;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.grid {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.grid_item {
+  min-width: 160px;
+}
+.input-box {
+  min-width: 300px;
+}
+.label {
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: medium;
+  float: left;
+  min-width: 150px;
+}
+.button {
+  border: none;
+  margin: 10%;
+  background-color: #37abc8;
+  color: white;
+  font-family: Calibri;
+  font-weight: bold;
+  width: 40%;
+  height: 20%;
+  min-width: 100px;
+  min-height: 30px;
+}
+.button:hover {
+  background-color: #1d96b4;
+  cursor: pointer;
+}
+.button:active {
+  background-color: #0e84a1;
+}
+.img {
+  height: 20%;
+  width: 20%;
+  float: left;
+  enable-background: 0%;
+  padding-left: 1%;
+  margin: -3%;
+  min-width: 150px;
+}
+.result {
+  height: 10rem;
+  border: outset;
+  width: 100%;
+}
