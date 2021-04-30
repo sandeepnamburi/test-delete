@@ -19,7 +19,7 @@ const MainGrid = () => {
   return (
     <Grid container spacing={10} className="grid">
       <Grid item xs={6} className="input-box">
-        <label className="label"> HELP </label>
+        <label className="label"> Text </label>
         <TextField
           placeholder="Type your text here"
           variant="outlined"
